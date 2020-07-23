@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   j'espère que vous l'aimez beaucoup.
   J'ai aussi une chaîne sur Youtube, avec des choses amusantes.
   Et n'oubliez pas de vous abonnez gratuitement.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "bananaspook" # the subpath of your site, e.g. /blog
 url: "https://134.209.192.147" # the base hostname & protocol for your site, e.g. http://example.com
 
 youtube_username: Banana Spook
