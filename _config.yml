@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Banana Spook
+title: Banana Spook2
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue sur mon site,
   j'espère que vous l'aimez beaucoup.
@@ -26,11 +26,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Et n'oubliez pas de vous abonnez gratuitement.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-youtube_username: /channel/UC16CAWzjzKPbeQg9wzaezuA
+
+youtube_username: Banana Spook
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
