@@ -1,0 +1,42 @@
+---
+layout: homepage
+---
+
+<!-- You can pick div class of your choice:
+
+item--medium
+item--large
+item--full
+
+-->
+
+<div class="message">
+  Sorry, your browser does not support CSS Grid. 😅
+</div>
+<section class="section">
+<br style="clear:both"/>
+  <div class="grid">
+
+
+{% for post in site.posts %}
+    <div class="item item--medium">
+      <div class="item__details">
+                  <div class="tile">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h3>
+          </div>
+      </div>
+   </div>
+
+{% endfor %}
+
+  </div>
+
+
+
+
+
+
+
